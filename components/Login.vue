@@ -50,7 +50,7 @@
             <a class="help" href="http://a.com">CREATE ACCOUNT</a>
         </div>
 
-        <p class="version">V0.02.0</p>
+        <p class="version">V0.20.0</p>
     </div>
 </template>
 <script>
