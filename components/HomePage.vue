@@ -7,7 +7,9 @@
 </template>
 
 <script src="./scripts/script.js">
-import Login from './login.vue.js';</script>
+import Login from './login.vue.js';
+
+</script>
 <style>
 html, body {
   box-sizing: border-box;
@@ -19,7 +21,7 @@ html, body {
   font-size: 9pt;
   font-weight: 800;
   text-decoration: none;
-  color: rgb(163, 163, 163)
+  color: rgb(203, 203, 203)
 }
 
 .container {
@@ -35,7 +37,7 @@ html, body {
 }
 
 .image {
-  background-color: rgb(124, 25, 216);
+  background-color: rgb(5, 0, 41);
   grid-area: i;
 }
 
