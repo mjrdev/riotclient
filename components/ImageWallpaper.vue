@@ -2,9 +2,6 @@
     <div class="wallpaper"></div>
 </template>
 <script>
-export default {
-    name: 'ImageWallpaper'
-}
 </script>
 
 <style>

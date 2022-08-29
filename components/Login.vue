@@ -9,7 +9,7 @@
         <h2 class="title">Sing in</h2>
 
         <form action="" class="form">
-            <input class="i-login" type="text" placeholder="USERNAME">
+            <input v-model="title" class="i-login" type="text" placeholder="USERNAME">
             <input class="i-login" type="text" placeholder="PASSWORD">
         </form>
 
@@ -17,15 +17,15 @@
 
             <div class="alt-login-container">
                 <div class="alt-login-item al-facebook"> 
-                    <img class="img-facebook" src="https://cdn.icon-icons.com/icons2/2367/PNG/512/facebook_logo_icon_143600.png" alt="">
+                    <img class="img-facebook" :src="logosAltLogin.facebook" alt="">
                 </div>
 
                 <div class="alt-login-item al-google">
-                    <img class="img-google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png" alt="">
+                    <img class="img-google" :src="logosAltLogin.google" alt="">
                 </div>
 
                 <div class="alt-login-item al-apple">
-                    <img class="img-apple" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png" alt="">
+                    <img class="img-apple" :src="logosAltLogin.apple" alt="">
                 </div>
             </div>
 
@@ -46,17 +46,27 @@
         </div>
 
         <div class="more">
-            <a class="help" href="http://a.com">CAN'T SING IN</a>
+            <a class="help" href="">CAN'T SING IN</a>
             <a class="help" href="http://a.com">CREATE ACCOUNT</a>
         </div>
 
-        <p class="version">V0.20.0</p>
+        <p class="version">{{ version }}</p>
     </div>
 </template>
 <script>
 export default {
-    name: "Login",
-
+    name: 'Login',
+    data() {
+        return {
+            title: "Qualquer coisa",
+            version: 'v01.00.0',
+            logosAltLogin: {                
+                facebook: 'https://pnggrid.com/wp-content/uploads/2021/04/facebook-white-circle-1024x1024.png',
+                google: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png',
+                apple: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png'
+            }
+        }
+    }
 }
 
 
@@ -161,7 +171,7 @@ alt-login = metódos de login alternativos
 
         } .img-facebook {
             width: 11pt;
-            filter: contrast(0) brightness(2);
+            /* filter: contrast(0) brightness(2); */
             align-self: center;
 
         }

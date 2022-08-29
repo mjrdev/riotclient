@@ -6,9 +6,10 @@
   </div>
 </template>
 
-<script src="./scripts/script.js">
-import Login from './login.vue.js';
-
+<script>
+export default {
+    name: 'Home-Page'
+}
 </script>
 <style>
 html, body {
