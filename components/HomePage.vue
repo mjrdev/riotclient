@@ -7,8 +7,13 @@
 </template>
 
 <script>
+import Login from './Login.vue';
+import ImageWallpaper from './ImageWallpaper.vue';
 export default {
-    name: 'Home-Page'
+    name: 'HomePage',
+    components: {
+      Login, ImageWallpaper
+    }
 }
 </script>
 <style>
@@ -33,7 +38,7 @@ html, body {
 }
 
 .login {
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(255, 255, 255);
   grid-area: l;
 }
 
