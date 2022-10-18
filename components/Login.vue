@@ -135,6 +135,7 @@ alt-login = metódos de login alternativos
     margin-bottom: 2vh;
     height: 6vh;
     width: 100%;
+    background-color: rgb(244, 244, 244);
 
     /* FONT */
     
@@ -238,6 +239,7 @@ alt-login = metódos de login alternativos
   cursor: pointer;
   height: 0;
   width: 0;
+  background-color: rgb(237, 237, 237);
 }
 
 .checkmark {
