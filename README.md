@@ -2,7 +2,7 @@
 
 Representação do designer do Client Riot usando NuxtJS, VueJS e Javascript.
 
-![imagem template]()
+![imagem template 1]()
 
 ## Build Setup
 
