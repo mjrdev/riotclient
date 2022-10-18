@@ -9,7 +9,7 @@
         <h2 class="title">Sing in</h2>
 
         <form action="" class="form">
-            <input v-model="title" class="i-login" type="text" placeholder="USERNAME">
+            <input class="i-login" type="text" placeholder="USERNAME">
             <input class="i-login" type="text" placeholder="PASSWORD">
         </form>
 
@@ -58,7 +58,6 @@ export default {
     name: 'Login',
     data() {
         return {
-            title: "Qualquer coisa",
             version: 'v01.00.0',
             logosAltLogin: {                
                 facebook: 'https://pnggrid.com/wp-content/uploads/2021/04/facebook-white-circle-1024x1024.png',
@@ -96,6 +95,7 @@ alt-login = metódos de login alternativos
     grid-template-rows: 12vh 16vh 18vh 6.5vh 28.5vh 19vh;
     padding: 0pt 4vw;
     justify-items: center;
+    background-color: #fff;
 }
 
 .riot-logo {
@@ -132,7 +132,6 @@ alt-login = metódos de login alternativos
     margin: 0;
     border: 0;
     border-radius: 3pt;
-    background-color: rgb(236, 236, 236);
     margin-bottom: 2vh;
     height: 6vh;
     width: 100%;
@@ -284,14 +283,16 @@ alt-login = metódos de login alternativos
     align-self: center;
     background-color: rgb(242, 242, 242);
     cursor: pointer;
+    transition: 300ms;
 } .btn-signin span {
 
     color: rgb(231, 231, 231);;
 }
 
     .btn-signin:hover {
-        background-color: rgb(233, 233, 233);
+        background-color: rgb(246, 246, 246);
         padding: 1px;
+  
     }
 
 
