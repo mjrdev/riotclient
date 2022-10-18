@@ -16,26 +16,15 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+  ssr: false,
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  router: {
+    base: '/riotclient-recreated/'
+  },
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  target: 'static',
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  generate: {
+    dir: 'dist'
+  },
 }
