@@ -1,6 +1,6 @@
 # riotclient
 
-Recriação do designer do Client Riot usando NuxtJS, VueJS e Javascript.
+Recriação do designer do Client Riot usando NuxtJS.
 
 ![imagem template 1]()
 
