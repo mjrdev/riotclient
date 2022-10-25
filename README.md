@@ -2,7 +2,7 @@
 
 Recriação do designer do Client Riot usando NuxtJS.
 
-![imagem template 1]()
+![imagem template 1](static/riot.png)
 
 ## Build Setup
 
