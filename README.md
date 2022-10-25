@@ -4,7 +4,7 @@ Recriação do designer do Client Riot usando NuxtJS.
 
 ![imagem template 1](static/riot.png)
 
-## Build Setup App
+## Build Setup 
 
 ```bash
 # install dependencies
