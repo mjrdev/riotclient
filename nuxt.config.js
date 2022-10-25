@@ -19,7 +19,7 @@ export default {
   ssr: false,
 
   router: {
-    base: '/riotclient-recreated/'
+    base: '/riotclient'
   },
 
   target: 'static',
