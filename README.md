@@ -2,7 +2,7 @@
 
 Representação do designer do Client Riot usando NuxtJS, VueJS e Javascript.
 
-## Build Setup
+## Build Setup App
 
 ```bash
 # install dependencies
